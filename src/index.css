@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@theme{
+  --color-primary: #4f6f52;
+  --color-dark-green: #355e3b;
+  --color-dusty-rose: #c97b84;
+  --color-soft-rose: #e6a6ac;
+  --color-cream: #f8f1e3;
+  --color-beige: #ede3d2;
+  --color-warm-gray: #93afa0;
+  --color-dark-text: #27352a;
+  --color-light-sage: #dce6d5;
+  --font-google: "Google Sans", sans-serif;
+  --font-poppins:"Poppins";
+  --text-tiny: 10px;
+  --text-medium:15px;
+  --text-small-med:14px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.padding {
+  @apply p-4;
+  color: #93afa0;
+}
+
+.header-txt {
+  @apply font-google font-bold text-xl sm:text-2xl md:text-3xl lg:text-3xl;
+}
+.small-txt {
+  @apply font-google font-semibold text-sm sm:text-lg md:text-xl lg:text-2xl;
+}
+.med-txt{
+ @apply font-poppins font-extrabold  text-lg sm:text-xl md:text-xl lg:text-2xl;
+}
+.med2-txt{
+  @apply font-poppins font-extrabold  text-lg sm:text-xl md:text-2xl lg:text-2xl;
+}
+.rounded-cont {
+  @apply w-14 h-14 sm:w-15 sm:h-15 md:w-20 md:h-20  
+  flex flex-col px-2
+  justify-center rounded-full items-center;
+}
+.nav-icon {
+  @apply text-lg sm:text-lg md:text-xl lg:text-xl;
+}
+.small-icon{
+  @apply text-sm sm:text-lg md:text-xl lg:text-2xl;
+}
+.small2-icon{
+    @apply text-sm sm:text-lg md:text-xl lg:text-2xl;
+}
