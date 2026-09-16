@@ -1,16 +1,50 @@
-# React + Vite
+# 💰 SpendWise – Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SpendWise is a responsive expense tracking web application built to help users manage their income and daily expenses in a simple and intuitive way.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 [SpendWise Live Demo](https://track-with-spend-wise.netlify.app/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 💰 Add income and expenses
+- 🗂️ Categorize expenses
+- 🔍 Search expenses
+- 🏷️ Filter expenses by category
+- 📅 Track expenses by date
+- 📊 View daily expense summaries
+- 📈 Visualize spending using charts
+- ✏️ Edit expenses
+- 🗑️ Delete expenses
+- 💾 Persist data using Local Storage
+- 📱 Responsive design for mobile and desktop
+- 🌱 Splash screen
+- 🧭 Responsive navigation with active route styling
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- Tailwind CSS
+- React Router
+- Recharts
+- Local Storage
+- Vite
+
+## 📂 Project Structure
+
+```text
+src/
+├── Pages/
+│   ├── Form.jsx
+│   ├── Home.jsx
+│   ├── Expenses.jsx
+│   ├── Summary.jsx
+│   └── Settings.jsx
+├── Header.jsx
+├── Footer.jsx
+├── SplashScreen.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
